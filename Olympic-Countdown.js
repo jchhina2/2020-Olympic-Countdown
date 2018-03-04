@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html>
-<body>
-
-<p>Click the button to display the time as a string.</p>
-
-<button onclick="myFunction()">Try it</button>
-
-<p id="demo"></p>
 
 <script>
 function myFunction() {
@@ -16,5 +7,3 @@ function myFunction() {
 }
 </script>
 
-</body>
-</html>
