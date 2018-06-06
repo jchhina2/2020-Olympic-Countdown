@@ -1,6 +1,5 @@
 
-<script>
-function myFunction() {
+function countDown() {
     
     //User's current Date & Time
     var currentDate = new Date().getTime();
@@ -10,5 +9,4 @@ function myFunction() {
     var n = currentDate.toLocaleTimeString();
     document.getElementById("demo").innerHTML = n;
 }
-</script>
 
