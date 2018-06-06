@@ -3,7 +3,7 @@
 function myFunction() {
     
     //User's current Date & Time
-    var currentDate = new Date();
+    var currentDate = new Date().getTime();
     
     //Opening Ceremony date
     var openingDate = new Date("July 24, 2020");
