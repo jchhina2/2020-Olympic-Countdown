@@ -10,7 +10,13 @@ function countDown() {
     //Updates the countdown every 1000 milliseconds, or 1 second
     var beginCountdown = setInterval(function(){
         var n = currentDate.toLocaleTimeString();
-        document.getElementById("demo").innerHTML = n;
+        
+        //Calculate the distance between today and the Opening date
+        var timeBeforeOpening = openingDate - currentDate;
+        
+        //The math that will calculate the difference
+        var daysBeforeOpening = Math.floor(timeBeforeOpening / (1000 * 60 * 60 * 24));
+        document.getElementById("demo").innerHTML = daysBeforeOpening;
     },1000);        
 }
 
