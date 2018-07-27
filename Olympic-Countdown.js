@@ -16,6 +16,7 @@ function countDown() {
         
         //The math that will calculate the difference
         var daysBeforeOpening = Math.floor(timeBeforeOpening / (1000 * 60 * 60 * 24));
+        const demo = document.createElement("demo");
         document.getElementById("demo").innerHTML = daysBeforeOpening;
     },1000);        
 }
