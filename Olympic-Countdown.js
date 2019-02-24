@@ -1,4 +1,4 @@
-    
+function countDown{    
     //Get the User's current Date & Time
     var currentDate = new Date().getTime();
     
@@ -16,4 +16,4 @@
         //const demo = document.createElement("demo");
         //document.getElementById("demo").innerHTML = daysBeforeOpening;
         document.write(daysBeforeOpening);
-        
+}        
