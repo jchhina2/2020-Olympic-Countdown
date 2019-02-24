@@ -8,7 +8,6 @@ function countDown() {
     var openingDate = new Date("July 24, 2020 00:00:00").getTime();
    
     //Updates the countdown every 1000 milliseconds, or 1 second
-    var beginCountdown = setInterval(function(){
         var n = currentDate.toLocaleTimeString();
         
         //Calculate the distance between today and the Opening date
@@ -18,6 +17,6 @@ function countDown() {
         var daysBeforeOpening = Math.floor(timeBeforeOpening / (1000 * 60 * 60 * 24));
         //const demo = document.createElement("demo");
         document.write(daysBeforeOpening + " days before the Olympics");
-    },1000);        
+        
 }
 
