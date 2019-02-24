@@ -1,5 +1,3 @@
-
-function countDown() {
     
     //Get the User's current Date & Time
     var currentDate = new Date().getTime();
@@ -16,7 +14,5 @@ function countDown() {
         //The math that will calculate the difference
         var daysBeforeOpening = Math.floor(timeBeforeOpening / (1000 * 60 * 60 * 24));
         //const demo = document.createElement("demo");
-        countDown.write(daysBeforeOpening + " days before the Olympics");
+        document.getElementById("demo").innerHTML = daysBeforeOpening;
         
-}
-
