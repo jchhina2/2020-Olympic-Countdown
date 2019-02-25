@@ -13,5 +13,8 @@
             //Get number of days before Olympics
             var daysBefore = Math.floor(timeBeforeOpening / (1000 * 60 * 60 * 24));
             
-            document.getElementById("demo").innerHTML = daysBefore + " days";
+           //Get number of hours before Olympics
+           var hoursBefore = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));     
+            
+            document.getElementById("demo").innerHTML = daysBefore + " days " + hoursBefore + " hours ";
         }, 1000);
